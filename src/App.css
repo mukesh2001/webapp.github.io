@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+button {
+    color: white;
+    width: 150px;
+    font-weight: 600;
+    font-size: 20px;
+    float: right;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(226, 86, 145, 0.329);
+    padding: 12px 10px;
+}
+
+button:hover {
+    scale: 1.03;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.column1 {
+    height: 100%;
+    width: 60%;
+    float: left;
+    width: 90%;
+    font-family: Pacifico;
+    color: white;
+    margin-left: 50px;
+    text-shadow: 2px 2px 3px rgb(165, 151, 151);
+    letter-spacing: 2px;
+}
+
+.column2 {
+    height: 100%;
+    float: left;
+    width: 30%;
+    margin-right: 50px;
+}
+
+.row {
+    display: flex;
+    height: 60px;
+    padding: 10px 50px 0px 30px;
+}
+
+.box {
+    background-color: rgb(0, 0, 0);
+}
+
+.box2 {
+    margin-left: 100px;
+}
+
+.avatar {
+    border-radius: 10%;
+}
+
+.column3 {
+    float: left !important;
+    width: 33% !important;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    font-size: 50px;
+    color: #f30909;
+}
+
+.profile {
+    border: #000000;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    max-width: 300px;
+    margin: 20px 5px;
+    text-align: center;
+    font-family: arial;
+    padding: 20px;
+    border-radius: 18px;
+    background-color: #e6f606;
+}
+
+.profile:hover {
+    transition: 400ms;
+    box-shadow: 8px 8px 5px rgb(83, 83, 83);
+    transform: translateY(-8px);
+}
+
+.email {
+    color: rgb(39, 33, 33);
+    font-size: 18px;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#main {
+    padding: 7px 50px;
+    margin: 0 auto;
+    display: none;
+}
+
+.loader {
+    margin: 0 auto;
+}
